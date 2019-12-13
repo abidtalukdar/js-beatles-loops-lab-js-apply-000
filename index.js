@@ -18,12 +18,14 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var empty_list = [] ;
-  n = 15 - n ;
+  var r = 15 - n ;
   do {
-    if (15 < n):
-      n = n - 1 ;
-      empty_list.push("I love the Beatles!") ;
-    else if   
-  } while (n !== 0 ) ;
+    if ( 15 > n ) {
+      r = r - 1 ;
+      empty_list.push("I love the Beatles!") }
+    else {
+      r = 0
+      empty_list.push("I love the Beatles!") }
+  } while (r !== 0);
   return empty_list ;
-}  
+}
